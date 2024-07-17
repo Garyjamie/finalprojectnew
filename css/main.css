@@ -1,0 +1,41 @@
+body{
+    background-image:url("../images/Stars.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh
+}
+nav{
+    display:grid;
+    grid-template-columns:25% 25% 25%;
+    justify-content:space-evenly;
+}
+nav img{
+    width:20%;
+}
+.start{
+    color:black;
+    background-color: black;
+    text-decoration: none;
+}
+.start:focus{
+    color:red;
+    background-color: yellow;
+    text-decoration: solid;
+}
+main{
+    display:flex;
+    justify-content:space-evenly;
+}
+main img{
+    width:20%;
+}
+img{
+    border:solid 10px black;
+    padding:10px;
+    border-radius:1px;
+}
+
+main :nth-child(odd){
+    border-color:red;
+}
